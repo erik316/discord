@@ -18,7 +18,7 @@ async def on_ready():
     print(f'We have logged in as {bot.user}')
  
 @bot.command()
-async def nature_tip(ctx):
+async def nature_tips(ctx):
     await ctx.send(tips)
 
 @bot.command()
@@ -26,7 +26,7 @@ async def how_many_ocean_pounds(ctx):
     await ctx.send(ocean_pounds)
 
 @bot.command()
-async def how_many_pounds_in_the_world(ctx):
+async def how_many_pounds_in_the_ocean_per_day(ctx):
     await ctx.send(total_ocean_pounds)
 
 @bot.command()
